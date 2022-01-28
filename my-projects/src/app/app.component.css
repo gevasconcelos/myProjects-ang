@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+html{
+  --background: #000814;
+  --buttom-login: #FB0707;
+  --label-login: #fbfcfd;
+  --buttom-register: #fbfdfd;
+
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: var(--background);
+
+  align-items: center;
+  display: flex;
+  margin-top: 9rem;
+  justify-content: center;
+
+  font-size: clamp(17px, 1.6rem, 2vw);
+}
+
+.container-logo{
+  align-items: center;
+  display: flex;
+}
+
+.form-login{
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 3rem;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.label-login {
+  color: white;
+}
+
+.label-senha{
+  color: white;
+}
+
+input{
+  background: white;
+  opacity: 80%;
+  border-radius: .3rem;
+
+  width: 25rem;
+  height: 3rem;
+
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 1.5rem;
+
+  color: black;
+}
+
+
+.button-login{
+  background: white;
+  opacity: 80%;
+  border-radius: .3rem;
+  cursor: pointer;
+
+  width: 14rem;
+  height: 3rem;
+
+  align-items: center;
+  margin: 0 auto;
+  margin-top: .8rem;
+  margin-left: 5.5rem;
+
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.register{
+  align-items: center;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+  flex-direction: column;
+
+}
+
+button.register{
+  text-decoration: none;
+  background: none;
+  color: white;
+
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+p{
+  color: white;
+}
