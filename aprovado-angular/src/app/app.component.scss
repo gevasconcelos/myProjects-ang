@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  background: white;
+
+
+}
+
+.container-login{
+  align-items: center;
+  padding: 200px 100px 100px 900px;
+}
+
+
+.form-login{
+  align-items: center;
+  margin: 0 auto;
+  display: table-cell;
+  margin-top: 3rem;
+
+  font-family: 'Poppins', sans-serif;
+  columns: columns;
+  // vertical-align: middle;
+
+}
+
+
+mat-label{
+  font-size: 13px;
+}
+
+input{
+  background: rgb(238, 235, 235);
+  opacity: 50%;
+  border-radius: .1rem;
+
+  width: 25rem;
+  height: 3rem;
+
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 1.5rem;
+  margin-top: 1px;
+
+  // color: gray;
+}
+
+
+button.button-login{
+  background: var(--buttom-login);
+  opacity: 80%;
+  border-radius: .3rem;
+  cursor: pointer;
+
+  width: 14rem;
+  height: 3rem;
+
+  align-items: center;
+  margin: 0 auto;
+  margin-top: .8rem;
+  margin-left: 5.5rem;
+}
+
+.register{
+  align-items: center;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+  flex-direction: column;
+}
+
+button.register{
+  text-decoration: none;
+  background: none;
+  color: var(--buttom-register);
+
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+
+.button-formLogin{
+  align-items: center;
+  padding: 10px 170px;
+}
