@@ -9,6 +9,9 @@ import { FormGroup, FormBuilder } from '@angular/forms';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  
+
   title = 'Projeto Sem Título';
 
   senha = new FormControl('', [Validators.required, Validators.email]);
